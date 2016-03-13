@@ -1,7 +1,7 @@
 local BASE_URL = 'https://api.telegram.org/bot' .. config.bot_api_key
 
 if not config.bot_api_key then
-	error('Please Set Bot APIKE(TOKEN) IN config.lua')
+	error('Please Set Bot API KEY(TOKEN) IN config.lua')
 end
 
 sendRequest = function(url)
