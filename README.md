@@ -1,5 +1,6 @@
-# TelegramLuaBot
-It's A Bot Based On TelegramAPI For Chating With Users Got Reported In Telegram
+# TelegramLuaBot v2
+-------
+It's A Bot Based On TelegramAPI,GroupBulter For Chating With Users Got Reported In Telegram
 --------------------------------
  Get Started
 You **must** have Lua (5.2+), LuaSocket, and LuaSec installed.
