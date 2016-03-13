@@ -1,6 +1,6 @@
 local triggers = {
 	'^/help[@'..bot.username..']*',
-	'^/start[@'..bot.username..']*'
+	'^/start[@'..bot.username..']*',
         '^/about[@'..bot.username..']*'
 }
 
