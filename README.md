@@ -6,13 +6,21 @@ It's A Bot Based On TelegramAPI,GroupBulter For Chating With Users Got Reported 
 -------
 In Pm:
 /a <Pm>  --This Will Send Pm To Admin
+
 /u <pm> (VIA REPLY) --This Will Send Back Pm To User
+
 In Admin Pm
+
 /blacklist <userid> --This Will Block User To Send Pm
+
 /blacklist <username> --This Will Block User To Send Pm 
+
 /whitelist <userid>  --This Will UnBlock User To Send Pm 
-/whitelist <username>  --This Will UnBlock User To Send Pm 
+
+/whitelist <username>  --This Will UnBlock User To Send Pm
+
 Atterntion!
+
 you can unblock user,with sending /blacklist <userid> or /blacklist <username> twice!
 --------------------------------
  Get Started
