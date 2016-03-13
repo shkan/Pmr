@@ -23,6 +23,11 @@ local action = function(msg)
 	    local target = msg.message_id
 				local feed = msg.text:sub(4, 14)
 		local text = ''..feed..''
+			local blacklist = load_data('blacklist.json')
+			if blacklist[msg.from.id_str] then
+		return -- End if the sender is blacklisted.
+	end
+
 			    forwardMessage (receiver, msg.from.id, target)
 
 	    sendMessage(msg.from.id, '*pm sent*\n*Arman Bot Service Msg\n*Your Pm⬇️\n\n'..input, true, false, true) -- You Can ReplaceArman Bot Service Msg
@@ -35,8 +40,13 @@ local action = function(msg)
             sendReply(msg, 'Reply to  Feedback!', false)
 			return nil
 		end
+			local blacklist = load_data('blacklist.json')
 		local input = msg.text:input()
 		if not input then
+			if blacklist[msg.from.id_str] then
+		return -- End if the sender is blacklisted.
+	end
+
             sendMessage(msg.from.id, 'Type /u <Pm>"')
             return nil
         end
@@ -45,6 +55,11 @@ local action = function(msg)
 		local receiver = msg.forward_from.id
 		local feed = msg.text:sub(4, 14)
 		local text = ''..input
+			local blacklist = load_data('blacklist.json')
+			if blacklist[msg.from.id_str] then
+		return -- End if the sender is blacklisted.
+	end
+
 		sendMessage(receiver, text, true, false, true)
 		sendMessage(config.admin, ' _SuccessFully Sent_:\n\n'..input, true, false, true)
 	end
