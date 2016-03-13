@@ -5,11 +5,15 @@ It's A Bot Based On TelegramAPI,GroupBulter For Chating With Users Got Reported 
 #HELP
 -------
 In Pm:
+
+
 /a <Pm>  --This Will Send Pm To Admin
 
 /u <pm> (VIA REPLY) --This Will Send Back Pm To User
 
+
 In Admin Pm
+
 
 /blacklist <userid> --This Will Block User To Send Pm
 
@@ -17,7 +21,9 @@ In Admin Pm
 
 /whitelist <userid>  --This Will UnBlock User To Send Pm 
 
-/whitelist <username>  --This Will UnBlock User To Send Pm
+/whitelist <username>  --This Will UnBlock User To Send Pm 
+
+
 
 Atterntion!
 
