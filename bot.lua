@@ -100,4 +100,4 @@ while is_started do -- Start a loop while the bot should be running.
 
 end
 
-print('Stopped.')
+print('Bot Stopped.')
