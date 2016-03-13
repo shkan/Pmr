@@ -1,5 +1,6 @@
 -- utilities.lua
 -- Functions shared among plugins.
+--COPYRIGHT 2016
 
 function get_word(s, i) -- get the indexed word in a string
 
