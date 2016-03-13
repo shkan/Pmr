@@ -25,5 +25,6 @@ return {
 	plugins = {
 		'Help.lua',
 		'Pv.lua',
+		'Block.lua'
 	}
 }
