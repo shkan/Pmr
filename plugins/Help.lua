@@ -12,7 +12,7 @@ local action = function(msg)
     local text = ''
     if msg.chat.type == 'private' then
         text = text..'Hey, *'..msg.from.first_name..'*!\n'
-        ..'\n*WELCOME TO ARMAN PV!*\n[GitHub](github.com/thisisarman)\n _Send Pm With_ \n `/a YourPm!` \n *this bot is open sourced*\n [source](https://github.com/ThisIsArman/TelegramLuaBot)\n'
+        ..'\n*WELCOME TO S.H.O.S PV!*\n[Developer](http://telegram.me/shayan123hacker)\n _Send Pm With_ \n `/a YourPm!` \n'
     end
     
     sendMessage(msg.from.id, text, true, false, true)
